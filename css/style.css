@@ -34,6 +34,10 @@ body {
   justify-content: end;
 }
 
+nav li.active a {
+  color: #111;
+}
+
 .greeting {
   /* height: 100vh;
   position: relative; */
@@ -245,6 +249,7 @@ h2 {
   text-decoration: none;
   border: 2px solid var(--primary-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .launch-link:hover,
