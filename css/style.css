@@ -281,7 +281,7 @@ h2 {
 }
 /* -------------------------------------------------------------- */
 .contact__container {
-  padding: 90px 50px;
+  padding: 90px 15px;
   /* padding-top: 90px; */
 }
 .contact__btn {
@@ -351,6 +351,15 @@ h2 {
   .about__title {
     text-align: center;
   }
+  .contact__container {
+    padding: 50px 15px;
+  }
+  .contact__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .contact__link {
+    text-align: center;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -417,5 +426,8 @@ h2 {
   }
   .links__email {
     font-size: 18px;
+  }
+  .contact__container {
+    padding: 30px 15px;
   }
 }
